@@ -1,1 +1,102 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Inria+Serif:300,400,700|Sofia&display=swap');
+    </style>
+    <script src="function.js"></script>
+    <script src="fixedheader.js"></script>
+    
+    <title>Title of the document</title>
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="background-text" id="background-text">
+            <h1>Emma & Albin</h1>
+            <h4>5-6 september 2019</h4>
+        </div>     
+    </div>
+    <div class="nav bottom-nav sticky" id="nav-bar">
+        <!--<div class="blur"></div>-->
+        <div class="nav-content">
+            <div class="count-down">
+                <h4>Dagar kvar till bröllopet</h4>
+                <h2 id="clock"></h2>
+            </div>
+            <a class="button-osa" href="https://docs.google.com/forms/d/e/1FAIpQLScMof_rzrjmE7YwN0Vw5aJ6eQomCjDFM5WS5xj6OejVqQVT2Q/viewform?usp=sf_link" target="_blank"><p id="button-text">OSA</p></a>
+        </div>
+    </div>
+    <section class="info-section" id="infoSection">
+        <div class="info-section-content">
+            <div class="info-box">
+                <div class="info-box-heading">
+                    <img class="branch" src="img/branch.png" alt="">
+                        <h2>Vi ska gifta oss!</h2>
+                    <img class="branch right-branch" src="img/branch.png" alt="">
+                </div>
+                <div class="info-box-text">
+                    <p>Kära vänner och familj! Vi ska gifta oss, och vill inget hellre än att dela detta med just er. Välkomna att fira kärleken med oss!</p>
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-box-heading">
+                    <img class="branch" src="img/branch.png" alt="">
+                        <h2>Bröllopsweekend</h2>
+                    <img class="branch right-branch" src="img/branch.png" alt="">
+                </div>
+                <p>Bröllopet kommer att äga rum vid <b>Grytsbergs säteri</b>, en vacker gård belägen vid Kyrksjön i Södermanland den <b>5:e september 2020</b>. För de gäster som önskar, erbjuds möjligheten att övernatta i något av gårdens flera hus. Se mer detaljerad info om detta nedan.</p>
+                <div class="info-box-text">
+                    <h3>5:e september</h3>
+                    <p>Vigseln äger rum i <b>Gryts kyrka kl 16:00</b>. Ceremonin följs av mingel, brudskål och bröllopsmiddag på Grytsbergs säteri (ca 2 minuters promenad från kyrkan). Kvällen avslutas med dans och underhållning fram till kl 02.00.</p>
+                    <h3>6:e september</h3>
+                    <p>Dagen efter bröllopet serveras en brunch för de som övernattat (anges i anmälan). <b>Brunchen serveras mellan 9:00-11.00.</b></p>
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-box-heading">
+                    <img class="branch" src="img/branch.png" alt="">
+                        <h2>OSA</h2>
+                    <img class="branch right-branch" src="img/branch.png" alt="">
+                </div>
+                <div class="info-box-text" id="center-p">
+                    <p>OSA senast 5/6-2020</p>
+                    
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScMof_rzrjmE7YwN0Vw5aJ6eQomCjDFM5WS5xj6OejVqQVT2Q/viewform?usp=sf_link" target="_blank">Klicka här och fyll i formuläret.</a>
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-box-heading">
+                    <img class="branch" src="img/branch.png" alt="">
+                        <h2>Praktisk info</h2>
+                    <img class="branch right-branch" src="img/branch.png" alt="">
+                </div>
+                <div class="info-box-text">
+                    <h3>Hitta hit</h3>
+                    <p>Grytsbergs säteri är beläget i en vacker miljö strax utanför Stjärnhov i Södermanland. Hit tar du dig enklast med bil (ca 1h 10min från Stockholm). Vi uppmanar alla våra gäster att samåka i så stor utsträckning som möjligt. Väl på plats finns kostnadsfri parkering, varav 4 st anpassade för elbil.<br>
+                    <br><b>Adress:</b> <br> Grytsbergs Säteri <br> 64696, Stjärnhov<br> <br>
+                    För den som föredrar att åka kommunalt är detta möjligt på sträckan Stockholm C - Stjärnhov, men tyvärr inte hela vägen till Grytsberg. Från Stockholm C går tåg till Gnesta och från Gnesta finns buss att ta till Stjärnhov. Från Stjärnhov är det 2,7 km till Grytsbergs Säteri. 
+                    </p>
+                    <h3>Boende</h3>
+                    <p>Runt Grytsbergs säteri finns flera hus och byggnader (inom promenadavstånd) och i dessa finns rum för samtliga gäster att övernatta i. Rummen är fräscha och mysigt pittoreska. Notera att rummen i de flesta fall har delad WC/dusch, och vi kommer med omsorg placera ut våra gäster så att familjer och sällskap bor tillsammans. Samtliga rum och lokaler är rök- och djurfria. 
+                    Pris för övernattning per dubbelrum är <b>795:-/pers och natt</b> (inkl brunch, lakan & handdukar). Boendet betalas på plats. <b>Incheckning</b> sker från <b>kl 15.00 på lördagen</b> och <b>utcheckning senast kl 11.00 på söndagen.</b> </p>
+                    <h3>Barn</h3>
+                    <p>Vi älskar barn, men kvällen firar vi i vuxet sällskap. Givetvis är ammande barn välkomna.</p>
+                    <h3>Klädkod</h3>
+                    <p>Mörk kostym.</p>
+                    <h3>Toastmaster och toastmadame</h3>
+                    <p>Brudgummens vän Mikael Rabus och brudens syster Lovisa Carlsson har gjort oss den stora äran att vara kvällens toastmaster och toastmadame. För att anmäla eventuella tal, sånger eller andra framträdanden under bröllopsmiddagen når ni dem via kontaktuppgifterna nedan. Anmälan sker senast 8 augusti för att Lovisa och Mikael ska kunna planera dagen på bästa sätt!<br><br> Mail: emmaochalbingiftersig@gmail.com</p>
+                    <h3>Presenter</h3>
+                    <p>Den bästa presenten vi kan få är att ni tar er tid och närvarar under vårt bröllop och bidrar till en oförglömlig dag. Om ni ändå vill ge oss en present kontakta vår toastmadame Lovisa.</p>
+                    <h3>Övrigt</h3>
+                    <p>Om det finns andra frågor kring vårt bröllop kontakta oss gärna via mail: emmaochalbingiftersig@gmail.com 
+                    <br><br>Intill säteriet finns Grytsbergs golfklubb och under helgen erbjuds alla gäster 100 kr i rabatt på green feen.</p>
+                </div>
+            </div>
+        </div>
+        <img class="branch-end" src="img/branch-end.png" alt="">
+    </section>  
+</body>
+</html>
