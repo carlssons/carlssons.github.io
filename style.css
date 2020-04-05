@@ -38,6 +38,13 @@ html, body {
     font-family: 'Inria Serif', serif;
     
   }
+  #arrow{
+      margin-top:42%;
+      width: 42px;
+      height: 42px;
+      position: sticky;
+
+  }
     .parallax{
         display: flex;
         flex-direction: column;
@@ -75,7 +82,7 @@ html, body {
         color: #E4E6F1;
         width: 100%;
         padding: 56px 0 20px 0;
-        z-index:10;
+
     }
 
     .blur{
@@ -222,5 +229,8 @@ html, body {
         }
         .branch{
             width:38px;
+        }
+        #arrow{
+            margin-top: 80%;
         }
       }

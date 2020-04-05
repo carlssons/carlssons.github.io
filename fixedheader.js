@@ -10,6 +10,7 @@ function myNavigation(){
         if (window.pageYOffset > sticky){
             backgroundText.style.background="linear-gradient(to top, rgba(16, 47, 37,0),  rgba(16, 47, 37,1))";  
             backgroundText.style.padding="20px 0 20px 0";
+            
         }
 
         else{
